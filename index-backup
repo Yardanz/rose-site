@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rose Agnes Art Gallery</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+  <!-- Header -->
+  <header>
+    <nav>
+      <a href="#showcase">Showcase</a>
+      <a href="#animation-store">Animation Store</a>
+      <a href="#contact">Contact</a>
+      <a href="#how-it-works">How it Works</a>
+    </nav>
+  </header>
+
+  <!-- Main Content -->
+  <main class="container">
+    <!-- Sidebar -->
+    <aside class="sidebar">
+      <div class="steam-info">
+        <p><a href="https://steamcommunity.com/id/roseagnes" class="p-st">Steam</a></p>
+        <p><a href="https://www.artstation.com/roseagnes" class="p-st">Artstation</a></p>
+      </div>
+      <div class="filters">
+        <h3 class="h3-fil">Filters</h3>
+        <strong>Style:</strong>
+        <label><input type="checkbox" name="drawing" value="Anime"> Anime</label>
+        <label><input type="checkbox" name="drawing" value="IRL"> IRL</label>
+        <label><input type="checkbox" name="drawing" value="Cinema"> Cinema</label>
+        <hr>
+        <strong>Color:</strong>
+        <label><input type="checkbox" name="color" value="Red"> Red</label>
+        <label><input type="checkbox" name="color" value="Blue"> Blue</label>
+        <label><input type="checkbox" name="color" value="Green"> Green</label>
+        <hr>
+        <strong>Type:</strong>
+        <label><input type="checkbox" name="type" value="Showcase"> Showcase</label>
+        <label><input type="checkbox" name="type" value="Wallpaper"> Wallpaper</label>
+        <label><input type="checkbox" name="type" value="Avatar"> Avatar</label>
+      </div>
+    </aside>
+
+
+    <!-- Showcase Section -->
+    <section id="showcase" class="w-full grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 p-4 ml-10">
+      <div class="card rounded-lg overflow-hidden" data-tags="Anime Showcase Blue">
+        <video src="vid/sc/vid1.mp4" autoplay loop muted playsinline></video>
+        <div class="content">
+          <h3 class="text-xl font-bold text-yellow-300">Muichiro Tokito</h3>
+        </div>
+      </div>
+      <div class="card rounded-lg overflow-hidden" data-tags="Anime Showcase Blue">
+        <video src="vid/sc/vid2.mp4" autoplay loop muted playsinline></video>
+        <div class="content">
+          <h3 class="text-xl font-bold text-yellow-300">Starry Wedding</h3>
+        </div>
+      </div>
+      <div class="card rounded-lg overflow-hidden" data-tags="Anime Showcase Blue">
+        <video src="vid/sc/vid3.mp4" autoplay loop muted playsinline></video>
+        <div class="content">
+          <h3 class="text-xl font-bold text-yellow-300">Moonlit Serenity</h3>
+        </div>
+      </div>
+      <div class="card rounded-lg overflow-hidden" data-tags="Anime Showcase Red">
+        <video src="vid/sc/vid4.mp4" autoplay loop muted playsinline></video>
+        <div class="content">
+          <h3 class="text-xl font-bold text-yellow-300">Festive Gift Joy</h3>
+        </div>
+      </div>
+      <div class="card rounded-lg overflow-hidden" data-tags="Anime Showcase Blue">
+        <video src="vid/sc/vid5.mp4" autoplay loop muted playsinline></video>
+        <div class="content">
+          <h3 class="text-xl font-bold text-yellow-300">Mystic Blade</h3>
+        </div>
+      </div>
+      <div class="card rounded-lg overflow-hidden" data-tags="IRL Avatar Green">
+        <video src="vid/sc/vid6.mp4" autoplay loop muted playsinline></video>
+        <div class="content">
+          <h3 class="text-xl font-bold text-yellow-300">Desert Whisper</h3>
+        </div>
+      </div>
+      <div class="card rounded-lg overflow-hidden" data-tags="IRL Avatar Green">
+        <video src="vid/sc/vid7.mp4" autoplay loop muted playsinline></video>
+        <div class="content">
+          <h3 class="text-xl font-bold text-yellow-300">Desert Whisper</h3>
+        </div>
+      </div>
+      <div class="card rounded-lg overflow-hidden" data-tags="IRL Avatar Green">
+        <video src="vid/sc/vid8.mp4" autoplay loop muted playsinline></video>
+        <div class="content">
+          <h3 class="text-xl font-bold text-yellow-300">Desert Whisper</h3>
+        </div>
+      </div>
+      <div class="card rounded-lg overflow-hidden" data-tags="IRL Avatar Green">
+        <video src="vid/sc/vid9.mp4" autoplay loop muted playsinline></video>
+        <div class="content">
+          <h3 class="text-xl font-bold text-yellow-300">Desert Whisper</h3>
+        </div>
+      </div>
+      <div class="card rounded-lg overflow-hidden" data-tags="IRL Avatar Green">
+        <video src="vid/sc/vid10.mp4" autoplay loop muted playsinline></video>
+        <div class="content">
+          <h3 class="text-xl font-bold text-yellow-300">Desert Whisper</h3>
+        </div>
+      </div>
+      <div class="card rounded-lg overflow-hidden" data-tags="IRL Avatar Green">
+        <video src="vid/sc/vid11.mp4" autoplay loop muted playsinline></video>
+        <div class="content">
+          <h3 class="text-xl font-bold text-yellow-300">Desert Whisper</h3>
+        </div>
+      </div>
+      <div class="card rounded-lg overflow-hidden" data-tags="IRL Avatar Green">
+        <video src="vid/sc/vid12.mp4" autoplay loop muted playsinline></video>
+        <div class="content">
+          <h3 class="text-xl font-bold text-yellow-300">Desert Whisper</h3>
+        </div>
+      </div>
+      <div class="card rounded-lg overflow-hidden" data-tags="IRL Avatar Green">
+        <video src="vid/sc/vid13.mp4" autoplay loop muted playsinline></video>
+        <div class="content">
+          <h3 class="text-xl font-bold text-yellow-300">Desert Whisper</h3>
+        </div>
+      </div>
+      <div class="card rounded-lg overflow-hidden" data-tags="IRL Avatar Green">
+        <video src="vid/sc/vid14.mp4" autoplay loop muted playsinline></video>
+        <div class="content">
+          <h3 class="text-xl font-bold text-yellow-300">Desert Whisper</h3>
+        </div>
+      </div>
+      <div class="card rounded-lg overflow-hidden" data-tags="IRL Avatar Green">
+        <video src="vid/sc/vid15.mp4" autoplay loop muted playsinline></video>
+        <div class="content">
+          <h3 class="text-xl font-bold text-yellow-300">Desert Whisper</h3>
+        </div>
+      </div>
+      <div class="card rounded-lg overflow-hidden" data-tags="IRL Avatar Green">
+        <video src="vid/sc/vid16.mp4" autoplay loop muted playsinline></video>
+        <div class="content">
+          <h3 class="text-xl font-bold text-yellow-300">Desert Whisper</h3>
+        </div>
+      </div>
+      <div class="card rounded-lg overflow-hidden" data-tags="IRL Avatar Green">
+        <video src="vid/sc/vid17.mp4" autoplay loop muted playsinline></video>
+        <div class="content">
+          <h3 class="text-xl font-bold text-yellow-300">Desert Whisper</h3>
+        </div>
+      </div>
+      <div class="card rounded-lg overflow-hidden" data-tags="IRL Avatar Green">
+        <video src="vid/sc/vid18.mp4" autoplay loop muted playsinline></video>
+        <div class="content">
+          <h3 class="text-xl font-bold text-yellow-300">Desert Whisper</h3>
+        </div>
+      </div>
+    </section>
+
+    <!-- Animation Store Section -->
+    <section id="animation-store" class="w-full grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 p-4 hidden ml-10">
+      <div class="card rounded-lg overflow-hidden" data-tags="Anime Showcase Red" onclick="showDetail('Personag iz anime', '$150.00', 'vid/vid1.mp4')">
+        <video src="vid/vid1.mp4" autoplay loop muted playsinline></video>
+        <div class="content">
+          <h3 class="text-xl font-bold text-yellow-300">Personag iz anime</h3>
+          <p class="text-yellow-300">$150.00</p>
+        </div>
+      </div>
+      <div class="card rounded-lg overflow-hidden" data-tags="Cinema Wallpaper Blue" onclick="showDetail('Golden Mirage', '$15.00', 'vid/animation2.mp4')">
+        <video src="vid/animation2.mp4" autoplay loop muted playsinline></video>
+        <div class="content">
+          <h3 class="text-xl font-bold text-yellow-300">Golden Mirage</h3>
+          <p class="text-yellow-300">$15.00</p>
+        </div>
+      </div>
+      <div class="card rounded-lg overflow-hidden" data-tags="IRL Avatar Green" onclick="showDetail('Desert Whisper', '$15.00', 'vid/animation3.mp4')">
+        <video src="vid/animation3.mp4" autoplay loop muted playsinline></video>
+        <div class="content">
+          <h3 class="text-xl font-bold text-yellow-300">Desert Whisper</h3>
+          <p class="text-yellow-300">$15.00</p>
+        </div>
+      </div>
+      <div class="card rounded-lg overflow-hidden" data-tags="IRL Avatar Green" onclick="showDetail('Desert Whisper', '$15.00', 'vid/animation3.mp4')">
+        <video src="vid/animation3.mp4" autoplay loop muted playsinline></video>
+        <div class="content">
+          <h3 class="text-xl font-bold text-yellow-300">Desert Whisper</h3>
+          <p class="text-yellow-300">$15.00</p>
+        </div>
+      </div>
+      <div class="card rounded-lg overflow-hidden" data-tags="IRL Avatar Green" onclick="showDetail('Desert Whisper', '$15.00', 'vid/animation3.mp4')">
+        <video src="vid/animation3.mp4" autoplay loop muted playsinline></video>
+        <div class="content">
+          <h3 class="text-xl font-bold text-yellow-300">Desert Whisper</h3>
+          <p class="text-yellow-300">$15.00</p>
+        </div>
+      </div>
+      <div class="card rounded-lg overflow-hidden" data-tags="IRL Avatar Green" onclick="showDetail('Desert Whisper', '$15.00', 'vid/animation3.mp4')">
+        <video src="vid/animation3.mp4" autoplay loop muted playsinline></video>
+        <div class="content">
+          <h3 class="text-xl font-bold text-yellow-300">Desert Whisper</h3>
+          <p class="text-yellow-300">$15.00</p>
+        </div>
+      </div>
+      <div class="card rounded-lg overflow-hidden" data-tags="IRL Avatar Green" onclick="showDetail('Desert Whisper', '$15.00', 'vid/animation3.mp4')">
+        <video src="vid/animation3.mp4" autoplay loop muted playsinline></video>
+        <div class="content">
+          <h3 class="text-xl font-bold text-yellow-300">Desert Whisper</h3>
+          <p class="text-yellow-300">$15.00</p>
+        </div>
+      </div>
+      <div class="card rounded-lg overflow-hidden" data-tags="IRL Avatar Green" onclick="showDetail('Desert Whisper', '$15.00', 'vid/animation3.mp4')">
+        <video src="vid/animation3.mp4" autoplay loop muted playsinline></video>
+        <div class="content">
+          <h3 class="text-xl font-bold text-yellow-300">Desert Whisper</h3>
+          <p class="text-yellow-300">$15.00</p>
+        </div>
+      </div>
+      <div class="card rounded-lg overflow-hidden" data-tags="IRL Avatar Green" onclick="showDetail('Desert Whisper', '$15.00', 'vid/animation3.mp4')">
+        <video src="vid/animation3.mp4" autoplay loop muted playsinline></video>
+        <div class="content">
+          <h3 class="text-xl font-bold text-yellow-300">Desert Whisper</h3>
+          <p class="text-yellow-300">$15.00</p>
+        </div>
+      </div>
+      <div class="card rounded-lg overflow-hidden" data-tags="IRL Avatar Green" onclick="showDetail('Desert Whisper', '$15.00', 'vid/animation3.mp4')">
+        <video src="vid/animation3.mp4" autoplay loop muted playsinline></video>
+        <div class="content">
+          <h3 class="text-xl font-bold text-yellow-300">Desert Whisper</h3>
+          <p class="text-yellow-300">$15.00</p>
+        </div>
+      </div>
+      <div class="card rounded-lg overflow-hidden" data-tags="IRL Avatar Green" onclick="showDetail('Desert Whisper', '$15.00', 'vid/animation3.mp4')">
+        <video src="vid/animation3.mp4" autoplay loop muted playsinline></video>
+        <div class="content">
+          <h3 class="text-xl font-bold text-yellow-300">Desert Whisper</h3>
+          <p class="text-yellow-300">$15.00</p>
+        </div>
+      </div>
+      <div class="card rounded-lg overflow-hidden" data-tags="IRL Avatar Green" onclick="showDetail('Desert Whisper', '$15.00', 'vid/animation3.mp4')">
+        <video src="vid/animation3.mp4" autoplay loop muted playsinline></video>
+        <div class="content">
+          <h3 class="text-xl font-bold text-yellow-300">Desert Whisper</h3>
+          <p class="text-yellow-300">$15.00</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Detail Section -->
+    <section id="detail-section" class="detail-section w-full p-4 hidden ml-10">
+      <button onclick="hideDetail()" class="mb-4 px-4 py-2 bg-gray-800 text-white rounded">Back</button>
+      <div class="flex">
+        <video id="detail-video" src="" autoplay loop muted playsinline class="w-1/2"></video>
+        <div class="w-1/2 p-4">
+          <h2 id="detail-title" class="text-2xl font-bold mb-2 text-yellow-300"></h2>
+          <p id="detail-price" class="text-yellow-300 mb-4"></p>
+          <p>Item Description: A beautifully animated Steam artwork. Goes very well with this matching profile picture. Background: Used Space</p>
+          <div class="mt-4">
+            <label class="block text-sm mb-2 text-yellow-300">Choose Type</label>
+            <select class="w-full p-2 bg-gray-800 border border-yellow-300 text-white rounded">
+              <option>Artwork</option>
+            </select>
+          </div>
+          <div class="mt-4">
+            <label class="block text-sm mb-2 text-yellow-300">Enter Name</label>
+            <input type="text" id="detail-name" placeholder="Type here..." class="w-full p-2 bg-gray-800 border border-yellow-300 text-white rounded">
+            <p class="text-xs mt-1 text-gray-400">This will replace the "Name" on the preview. Note: characters name left blank, and cannot be the characters name.</p>
+          </div>
+          <div class="mt-4">
+            <label class="block text-sm mb-2 text-yellow-300">Optional Background Link:</label>
+            <input type="text" id="detail-background" placeholder="Type here..." class="w-full p-2 bg-gray-800 border border-yellow-300 text-white rounded">
+            <p class="text-xs mt-1 text-gray-400">Please provide a link to the Steam Community marketplace listing of the background you would like to use, leave blank to use default.</p>
+          </div>
+          <div class="mt-4">
+            <button class="px-4 py-2 bg-yellow-600 text-white rounded">Add to Cart</button>
+            <button class="px-4 py-2 bg-yellow-600 text-white rounded ml-2">Buy Now</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+      <section id="contact" class="hidden">
+        <div class="contact-container">
+          <div class="contact-image">
+            <img src="img/me.jpeg" alt="Kalizar Profile Picture">
+          </div>
+          <div class="contact-text">
+            <h3>Rose Agnes</h3>
+            <p>Hi, I'm Rose Agnes, a passionate motion designer with years of experience bringing stories to life through dynamic visuals. I've spent over a decade crafting engaging animations, from sleek UI transitions to vibrant explainer videos, for brands big and small. My work blends creativity with technical precision, using tools like After Effects, Cinema 4D, and Blender to create eye-catching designs that captivate audiences. Whether it's a short social media clip or a complex commercial project, I thrive on transforming ideas into motion. Based in a bustling creative hub, I’m always exploring new trends and techniques to push the boundaries of design. Let’s create something unforgettable together!</p>
+            <a href="#">Click here to add me on Steam</a>
+          </div>
+        </div>
+      </section>
+
+    <!-- How it Works Section -->
+    <section id="how-it-works" class="w-full p-4 hidden ml-10">
+      <h2 class="text-2xl font-bold mb-4 text-yellow-300">What is this Website?</h2>
+      <p>This is a website dedicated to providing stunning, professionally made yet still affordable animated artwork for Steam profiles. You can browse through some of the possible options, and if there is something you like, you can replace the name or background of the artwork. After you place your order, I will go ahead and replace the text with your desired text and email you the artwork within the next 48 hours!</p>
+      <h2 class="text-2xl font-bold mb-4 mt-4 text-yellow-300">How Does the Process Work?</h2>
+      <p>You must be at least level 10 to upload an artwork. If you are not level 10, check out this <a href="#" class="text-yellow-300">Steam guide</a> to level up your Steam profile.</p>
+      <ol class="list-decimal ml-5 text-yellow-300">
+        <li>Name<br>This will be the name on the artwork, typically your gaming name, and will replace "Name". We require every artwork to have a unique name.</li>
+        <li>Background Link<br>If applicable, we ask for a background link. This would tell us which Steam background you would like to change the showcase to. We require that you provide the Steam community marketplace listing of the background.</li>
+      </ol>
+      <p class="mt-4 text-yellow-300"><strong>The artwork you order will be delivered by email</strong></p>
+      <p class="mt-2 text-yellow-300">After ordering, your artwork will be sent to the EMAIL USED DURING CHECKOUT within 48 Hours!</p>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    <p><a href="https://steamartwork.com/how-it-works/#" class="text-yellow-300">https://steamartwork.com/how-it-works/#</a> | <a href="#" class="text-yellow-300">PRIVACY</a> | <a href="#" class="text-yellow-300">TERMS OF SERVICE</a></p>
+    <p>© 2025 ROSE AGNES ART GALLERY</p>
+  </footer>
+
+  <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script src="script.js"></script>
+<script>(function(){function c(){var b=a.contentDocument||a.contentWindow.document;if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'94c23371cb55b7b2',t:'MTc0OTMyMDgxOS4wMDAwMDA='};var a=document.createElement('script');a.nonce='';a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>
+</html>

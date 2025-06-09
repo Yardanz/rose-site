@@ -99,5 +99,9 @@ document.addEventListener("DOMContentLoaded", () => {
 
     document.getElementById("clouds").appendChild(cloud);
   }
+
+if (window.fotorama) {
+    new Fotorama(document.querySelector('.fotorama'));
+  }
 });
 

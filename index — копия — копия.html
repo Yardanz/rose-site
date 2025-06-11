@@ -7,14 +7,8 @@
   <link rel="stylesheet" href="styles.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&family=Savate:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet">
   <script src="https://cdn.tailwindcss.com"></script>
-  <link href="https://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.css" rel="stylesheet">
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.js"></script>
 </head>
 <body>
   <div id="clouds"></div>
@@ -32,7 +26,7 @@
 
 
   <!-- Main Content -->
-  <main class="main-container">
+  <main class="container">
     <!-- Sidebar -->
     <aside class="sidebar">
       <div class="steam-info">
@@ -175,14 +169,14 @@
     <!-- Animation Store Section -->
     <section id="animation-store" class="w-full grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 p-4 hidden ml-10">
       <div class="card rounded-lg overflow-hidden" data-tags="Anime IRL Cinema Blue Red Green White Black Showcase Wallpaper Avatar" onclick="showDetail('Personag iz anime', '$150.00', 'vid/vid1.mp4')">
-        <video src="" autoplay loop muted playsinline></video>
+        <video src="vid/vid1.mp4" autoplay loop muted playsinline></video>
         <div class="content">
           <h3 class="text-xl font-bold h3-card">Your custom image</h3>
           <p class="h3-card">$150.00</p>
         </div>
       </div>
       <div class="card rounded-lg overflow-hidden" data-tags="" onclick="showDetail('Golden Mirage', '$15.00', 'vid/animation2.mp4')">
-        <video src="" autoplay loop muted playsinline></video>
+        <video src="vid/animation2.mp4" autoplay loop muted playsinline></video>
         <div class="content">
           <h3 class="text-xl font-bold h3-card">Random pic</h3>
           <p class="h3-card">$25.00</p>
@@ -225,73 +219,39 @@
 
     <!-- Contact Section -->
       <section id="contact" class="hidden">
-        <div class="container-last-second container-column">
-          <div class="container-border container-row container-width">
-            <div class="img-media container-flex img-me">
-              <img src="img/me.jpg" width="400px" height="400px">
-            </div>
-            <div class="container-flex">
-              <h2>R.A. Design</h2>
-              <p>Hi, I'm Rose Agnes, a passionate motion designer with years of experience bringing stories to life through dynamic visuals. I've spent over a decade crafting engaging animations, from sleek UI transitions to vibrant explainer videos, for brands big and small. My work blends creativity with technical precision, using tools like After Effects, Cinema 4D, and Blender to create eye-catching designs that captivate audiences. Whether it's a short social media clip or a complex commercial project, I thrive on transforming ideas into motion. Based in a bustling creative hub, I’m always exploring new trends and techniques to push the boundaries of design. Let’s create something unforgettable together!</p>
-            </div>
-          </div> 
-          <div class="container-border container-width">
-            <h1>..................................................ADD ME ON STEAM................................................</h1>
+        <div class="contact-container">
+          <div class="contact-image">
+            <img src="img/me.jpeg" alt="Kalizar Profile Picture">
           </div>
-          <div class="container-border container-width">
-            <div>
-              <h1>CHECK OUT SOCIAL MEDIA</h1>
-            </div>
-            <div class="container-media-2">
-              <div class="container-row">
-                <img class="img-media" src="img/contact/Artstation.png" width="200px" height="200px">
-                <img class="img-media" src="img/contact/Fiverr.png" width="200px" height="200px">
-                <img class="img-media" src="img/contact/Gmail.png" width="200px" height="200px">
-              </div>
-              <div class="container-row">
-                <img class="img-media" src="img/contact/Steam.png" width="200px" height="200px">
-                <img class="img-media" src="img/contact/X.png" width="200px" height="200px">
-                <img class="img-media" src="img/contact/Yuotube.png" width="200px" height="200px">
-              </div>
-
-            </div>
+          <div class="contact-text">
+            <h3 class="h3-me">Rose Agnes</h3>
+            <p>Hi, I'm Rose Agnes, a passionate motion designer with years of experience bringing stories to life through dynamic visuals. I've spent over a decade crafting engaging animations, from sleek UI transitions to vibrant explainer videos, for brands big and small. My work blends creativity with technical precision, using tools like After Effects, Cinema 4D, and Blender to create eye-catching designs that captivate audiences. Whether it's a short social media clip or a complex commercial project, I thrive on transforming ideas into motion. Based in a bustling creative hub, I’m always exploring new trends and techniques to push the boundaries of design. Let’s create something unforgettable together!</p>
+            <a href="#">Click here to add me on Steam</a>
           </div>
         </div>
       </section>
 
     <!-- How it Works Section -->
     <section id="how-it-works" class="w-full p-4 hidden ml-10">
-      <div class="container-last-second container-column">
-        <h1>What is this site</h1>
-        <div class="container-border container-width">
-          <p>
-            Welcome to a unique platform offering stunning, affordable animated artwork for Steam profiles. Browse our gallery, customize names or backgrounds, and receive your order via email within 48 hours!
-          </p>
-        </div>
-        <h1>Methods payment</h1>
-        <div class="container-border container-width">
-          <p>
-            Pay securely with PayPal, credit/debit cards, or trade CS2 items. Flexible options to suit your preference—choose what works best for you!
-          </p>
-        </div>
-        <h1>Reputation</h1>
-        <div class="container-border container-width">
-          <p>
-            Welcome to a unique platform offering stunning, affordable animated artwork for Steam profiles. Browse our gallery, customize names or backgrounds, and receive your order via email within 48 hours!
-          </p>
-        </div>
-        <div class="fotorama container-width" data-nav="thumbs" data-allowfullscreen="true" data-loop="true">
-          <img src="img/hiw/1.gif" alt="User 1 Profile">
-          <img src="img/hiw/2.webp" alt="User 2 Profile">
-          <img src="img/hiw/3.png" alt="User 3 Profile">
-          <img src="img/hiw/4.jpg" alt="User 3 Profile">
-          <img src="img/hiw/5.webp" alt="User 3 Profile">
-       </div>
-      </div>
+      <h2 class="text-2xl font-bold mb-4 text-yellow-300">What is this Website?</h2>
+      <p>This is a website dedicated to providing stunning, professionally made yet still affordable animated artwork for Steam profiles. You can browse through some of the possible options, and if there is something you like, you can replace the name or background of the artwork. After you place your order, I will go ahead and replace the text with your desired text and email you the artwork within the next 48 hours!</p>
+      <h2 class="text-2xl font-bold mb-4 mt-4 text-yellow-300">How Does the Process Work?</h2>
+      <p>You must be at least level 10 to upload an artwork. If you are not level 10, check out this <a href="#" class="text-yellow-300">Steam guide</a> to level up your Steam profile.</p>
+      <ol class="list-decimal ml-5 text-yellow-300">
+        <li>Name<br>This will be the name on the artwork, typically your gaming name, and will replace "Name". We require every artwork to have a unique name.</li>
+        <li>Background Link<br>If applicable, we ask for a background link. This would tell us which Steam background you would like to change the showcase to. We require that you provide the Steam community marketplace listing of the background.</li>
+      </ol>
+      <p class="mt-4 text-yellow-300"><strong>The artwork you order will be delivered by email</strong></p>
+      <p class="mt-2 text-yellow-300">After ordering, your artwork will be sent to the EMAIL USED DURING CHECKOUT within 48 Hours!</p>
     </section>
   </main>
 
+  <!-- Footer -->
+  <footer>
+    <p><a href="https://steamartwork.com/how-it-works/#" class="text-yellow-300">https://steamartwork.com/how-it-works/#</a> | <a href="#" class="text-yellow-300">PRIVACY</a> | <a href="#" class="text-yellow-300">TERMS OF SERVICE</a></p>
+    <p>© 2025 ROSE AGNES ART GALLERY</p>
+  </footer>
+
   <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script src="script.js"></script>
-<script>(function(){function c(){var b=a.contentDocument||a.contentWindow.document;if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'94c23371cb55b7b2',t:'MTc0OTMyMDgxOS4wMDAwMDA='};var a=document.createElement('script');a.nonce='';a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script>
-</body>
+<script>(function(){function c(){var b=a.contentDocument||a.contentWindow.document;if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'94c23371cb55b7b2',t:'MTc0OTMyMDgxOS4wMDAwMDA='};var a=document.createElement('script');a.nonce='';a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>
 </html>

@@ -1,9 +1,39 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rose Agnes Art Gallery</title>
+  <link rel="stylesheet" href="styles-store.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&display=swap" rel="stylesheet">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.css" rel="stylesheet">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.js"></script>
+</head>
+<body>
+  <div id="clouds"></div>
+  <!-- Header -->
+   
+  <header>
+    <nav>
+      <a href="#showcase">Showcase</a>
+      <a href="#animation-store">Animation Store</a>
+      <a href="index.html">Back to menu</a>
+    </nav>
+  </header>
+
+  <div class="cloud-layer"></div>
+
+
   <!-- Main Content -->
-<main>
-<section class="new-html" id="new-html">
-
   <main class="main-container">
-
+    <!-- Sidebar -->
     <aside class="sidebar">
       <div class="filters">
         <h3 class="h3-fil">Filters</h3>
@@ -27,8 +57,10 @@
       <div>
         <img src="img/ra.png" alt="RA Logo" class="sidebar-logo">
       </div>
-    </aside> 
+    </aside>
 
+
+    <!-- Showcase Section -->
     <section id="showcase" class="w-full grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 p-4 ml-10">
       <div class="card rounded-lg overflow-hidden" data-tags="Anime Showcase Blue Black">
         <video src="vid/sc/vid1.mp4" autoplay loop muted playsinline></video>
@@ -136,8 +168,7 @@
 
     
 
-    <-- Animation Store Section -->
-
+    <!-- Animation Store Section -->
     <section id="animation-store" class="w-full grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 p-4 hidden ml-10">
       <div class="card rounded-lg overflow-hidden" data-tags="Anime IRL Cinema Blue Red Green White Black Showcase Wallpaper Avatar" onclick="showDetail('Personag iz anime', '$150.00', 'vid/vid1.mp4')">
         <video src="" autoplay loop muted playsinline></video>
@@ -155,8 +186,7 @@
       </div>
     </section>
 
-    <-- Detail Section -->
-
+    <!-- Detail Section -->
     <section id="detail-section" class="detail-section w-full p-4 hidden ml-10">
       <button onclick="hideDetail()" class="mb-4 px-4 py-2 bg-gray-800 text-white rounded">Back</button>
       <div class="flex">
@@ -188,5 +218,9 @@
         </div>
       </div>
     </section>
-</section>
-</main>
+  </main>
+
+  <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script src="script-store.js"></script>
+<script>(function(){function c(){var b=a.contentDocument||a.contentWindow.document;if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'94c23371cb55b7b2',t:'MTc0OTMyMDgxOS4wMDAwMDA='};var a=document.createElement('script');a.nonce='';a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script>
+</body>
+</html>

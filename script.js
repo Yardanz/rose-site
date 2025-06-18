@@ -1,4 +1,4 @@
-let activeSectionId = 'showcase';
+let activeSectionId = 'about';
 
 document.querySelectorAll('header nav a').forEach(link => {
   link.addEventListener('click', (e) => {
@@ -99,5 +99,34 @@ document.addEventListener("DOMContentLoaded", () => {
 
     document.getElementById("clouds").appendChild(cloud);
   }
-});
+  const fadeText = document.querySelector('.fade-text');
+  if (fadeText) {
+    setTimeout(() => {
+      fadeText.classList.add('fade-in');
+    }, 300);
+  }
+  const buttonSect = document.querySelector('.buttons-sect');
+  if (buttonSect) {
+    setTimeout(() => {
+      buttonSect.classList.add('buttons-sect-in');
+    }, 900);
+  }
+  
+  const observer = new IntersectionObserver((entries, observer) => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        entry.target.classList.add('visible');
+        // Опционально: прекращаем наблюдение после анимации
+        // observer.unobserve(entry.target);
+      }
+    });
+  }, {
+    threshold: 0.1 // Анимация запускается, когда 10% элемента видно
+  });
 
+  // Наблюдаем за всеми элементами с классом fade-in
+  document.querySelectorAll('.fade-in-sect').forEach(element => {
+    observer.observe(element);
+  });
+
+});

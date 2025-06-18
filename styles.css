@@ -1,29 +1,22 @@
-html {
-  scroll-behavior: smooth;
-}
 
 body {
   background-color: #000000;
   color: #fff;
-  /* font-family: "Cinzel", serif; */
-  font-family: "Montserrat", sans-serif;
-  font-weight: 500 !important;
+  font-family: "Cinzel", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
   margin: 0;
   padding: 0;
-  position: relative; /* ВАЖНО */
-  z-index: 0;          /* Обеспечивает базовую иерархию */
+  position: relative;
 }
 
 main {
   flex: 1;
   display: flex;
   min-width: 0;
-  transition: opacity 0.3s ease;
 }
 
-main.loading {
-    opacity: 0;
-}
 section {
   flex: 1;
   min-width: 0;
@@ -33,12 +26,27 @@ section.hidden {
   display: none;
 }
 
-p a {
-  color: #d2ab35;
+/*..............................ХЕДЕР................................................................  */
+
+header {
+  background-color: rgb(45, 41, 27, 0.5);
+  padding: 25px 0;
+  text-align: center;
+  border-bottom: 2px solid 	#c1ae73;
+  width: 100%;
+  top: 0;
+  z-index: 1000;
 }
 
-p a:hover {
-  color: #ffd559
+header nav a {
+  color: #c1ae73;
+  margin: 0 40px;
+  text-decoration: none;
+  font-size: 21px;
+}
+
+header nav a:hover {
+  color: #e8d18b;
 }
 
 /* ..................................САЙДБАР..................................................... */
@@ -143,16 +151,6 @@ p a:hover {
   transition: transform 0.3s ease;
 }
 
-.card-2 {
-  background-color: #2a2a2a;
-  border: 2px solid #c1ae73;
-  position: relative;
-  min-width: 300px;
-  width: 100%;
-  overflow: hidden;
-  transition: transform 0.3s ease;
-}
-
 .card:hover {
   transform: scale(1.05);
 }
@@ -225,7 +223,6 @@ body::after {
   left: 30%;
   z-index: -1;
   animation: cloudFloat3 100s linear infinite;
-  overflow: hidden;
 }
 
 @keyframes cloudFloat1 {
@@ -331,15 +328,10 @@ p {
   margin: 0;
 }
 
-.p-sect-2 {
-  padding-right: 0;
-}
-
 h1 {
-  font-family: "El Messiri", sans-serif;
-  font-weight: 600 !important;
   text-align: center;
   font-size: 32px !important;
+  font-weight: 700  !important;
   color:#c1ae73;
   text-shadow: 1px 1px 1px #000000;
   padding: 20px;
@@ -347,42 +339,10 @@ h1 {
 }
 
 h2 {
-  font-family: "El Messiri", sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-size: 32px !important;
   color:#c1ae73;
-  font-weight: 600 !important;
-  text-shadow: 1px 1px 1px #000000;
-  padding-left: 20px;
-  margin: 0;
-}
-
-h3 {
-  font-family: "El Messiri", sans-serif;
-  font-size: 26px !important;
-  color:#dac482;
-  font-weight: 600 !important;
-  text-shadow: 1px 1px 1px #000000;
-  padding-left: 20px;
-  margin: 0;
-}
-
-h5 {
-  font-family: "El Messiri", sans-serif;
-  font-size: 26px !important;
-  color:#dac482;
-  font-weight: 600 !important;
-  text-shadow: 1px 1px 1px #000000;
-  padding-left: 20px;
-  margin: 0;
-  text-align: center;
-}
-
-.h4-zaebal-blyat {
-  font-family: "El Messiri", sans-serif;
-  font-size: 32px !important;
-  font-style: normal !important;
-  color:#c1ae73;
-  font-weight: 600 !important;
+  font-weight: 700 !important;
   text-shadow: 1px 1px 1px #000000;
   padding-left: 20px;
   margin: 0;
@@ -409,7 +369,7 @@ a:hover {
 }
 
 .container-border a:hover {
-  color: #e8d18b;
+  color: #fff;
 }
 
 .h3-fil {
@@ -419,32 +379,17 @@ a:hover {
   font-weight: bold;
 }
 
-.h1-main {
-  font-size: 60px !important;
-}
-
 /* ...........................КОНТЕЙНЕР............................................. */
 
 .main-container {
-  max-width: 1280px;
-  padding-top: 150px;
+  max-width: 1200px;
+  margin: 40px auto 20px;
+  padding: 20px;
   display: flex;
 }
 
-.pad-top-40 {
-  padding-top: 40px;
-}
-
-.w-400 {
-  max-width: 400px;
-}
-
 .container-width {
-  width: 1280px;
-}
-
-.container-width-600 {
-  width: 600px;
+  width: 1100px;
 }
 
 .container-last-second {
@@ -468,23 +413,17 @@ a:hover {
 }
 
 .container-media {
-  max-width: 1280px;
+  max-width: 1100px;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
 }
 
 .container-media-2 {
-  max-width: 1280px;
+  max-width: 1100px;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
-}
-
-.container-media-3 {
-  max-width: 1280px;
-  display: flex;
-  flex-direction: column;
 }
 
 .container-column {
@@ -493,60 +432,14 @@ a:hover {
   align-items: center;
 }
 
-.container-column-first {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-end;
-    justify-content: flex-end;
-}
-
 .container-row {
   display: flex;
   flex-direction: row;
   align-items: center;
 }
 
-.container-third {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: flex-start;
-}
-
-.space-around {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: space-around;
-}
-
-.padding-top {
-  padding-top: 60px;
-}
-
-.p-b-40 {
-  padding-bottom: 40px;
-}
-
-.h-750 {
-  height: 750px;
-}
-
-.h-950 {
-  height: 950px;
-}
-
-.m-t-40 {
-  margin-top: 40px;
-}
-
 .img-media {
   padding: 20px;
-  transition: transform 0.3s ease;
-}
-
-.img-media:hover {
-  transform: scale(1.05);
 }
 
 .img-media-2 {
@@ -565,101 +458,3 @@ a:hover {
 }
 
 
-/* ...............................МЕЙН СУЧКА */
-
-.fade-in-sect {
-  opacity: 0;
-  transform: translateY(50px); /* Начинаем с небольшого смещения вниз */
-  transition: opacity 1.5s ease-out, transform 1.5s ease-out;
-}
-
-.fade-in-sect.visible {
-  opacity: 1;
-  transform: translateY(0); /* Возвращаем на место */
-}
-
-.container-main {
-  position: relative;
-  height: 600vh; /* Две секции по 100vh */
-  scroll-behavior: smooth;
-}
-
-
-.first-sect, .second-sect, .third-sect, .fourth-sect, .fifth-sect, .six-sect {
-  position: relative;
-  width: 100%;
-  height: 100vh;
-  max-height: 100vh;
-  top: 0;
-  left: 0;
-}
-
-.second-sect, .third-sect, .fourth-sect, .fifth-sect, .six-sect, .main-container-first {
-  margin: 0 auto;
-  max-width: 1280px;
-}
-
-.six-sect {
-  height: 90vh;
-}
-
-footer {
-  height: 10vh;
-  border-top: 2px solid #c1ae73;
-}
-
-.first-sect {
-  background-image: url('./img/first-sec/bg.jpg');
-  background-blend-mode: overlay;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-}
-
-.fade-text {
-  position: absolute;
-  left: 20vw;
-  top: 20vh;
-  transform: translate(-50%, -50%) translateY(20px);
-  z-index: 1000;
-  opacity: 0;
-  transition: opacity 1.2s ease-out, transform 1.2s ease-out;
-  font-weight: bold;
-  text-shadow: 2px 2px 4px rgba(0,0,0,0.8);
-}
-
-
-.fade-in {
-  opacity: 1;
-  transform: translate(-50%, -50%) translateY(0);
-}
-
-.buttons-sect {
-  transform: translate(-50%, -50%) translateY(20px);
-  opacity: 0;
-  transition: opacity 1.2s ease-out, transform 1.2s ease-out;
-}
-
-.buttons-sect img {
-  transform: scale(0.9);
-  transition: transform 0.3s ease;
-}
-
-.buttons-sect img:hover {
-  transform: scale(1.05);  
-}
-
-.buttons-sect-in {
-  opacity: 1;
-  transform: translate(-50%, -50%) translateY(0);
-}
-
-.container-media-sect-2 {
-  max-height: 60vh; /* Ограничение высоты остается, если нужно */
-  align-items: stretch;
-}
-
-.second-sect-media {
-  width: 200px;
-  height: autos;
-}

@@ -5,6 +5,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Rose Agnes Art Gallery</title>
   <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="background.css">
+  <link rel="stylesheet" href="button.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
@@ -30,15 +32,23 @@
             <h1 class="h1-main">Welcome to<br>R.A. Design</h1>
           </div>
           <div class="container-column buttons-sect">
-            <a href="store.html"><img src="./img/first-sec/store.png"></a>
-            <a href="#second-sect"><img src="./img/first-sec/about_me.png"></a>
-            <a href="#third-sect"><img src="./img/first-sec/how_it_works.png"></a>
-            <a href="#fourth-sect"><img src="./img/first-sec/faq.png"></a>
-            <a href="#fifth-sect"><img src="./img/first-sec/reputatiom.png"></a>
-            <a href="#six-sect"><img src="./img/first-sec/order.png"></a>
+            <a href="store.html"><img class="container-border p-0" src="./img/first-sec/Store.webp"></a>
+            <a href="#second-sect"><img class="container-border p-0" src="./img/first-sec/About me.webp"></a>
+            <a href="#third-sect"><img class="container-border p-0" src="./img/first-sec/How it works.webp"></a>
+            <a href="#fourth-sect"><img class="container-border p-0" src="./img/first-sec/FAQ.webp"></a>
+            <a href="#fifth-sect"><img class="container-border p-0" src="./img/first-sec/Rep.webp"></a>
+            <a href="#six-sect"><img class="container-border p-0" src="./img/first-sec/Order.webp"></a>
           </div>
         </div>
       </div>
+    </section>
+
+    <section class="content-section">
+        <h2 class="content-switcher">Animation <br>on\off</h2>
+        <label class="switch">
+            <input type="checkbox" id="themeToggle">
+            <span class="slider"></span>
+        </label>
     </section>
 
 
@@ -78,11 +88,19 @@
               </div>
             </div>
           </div>
-            <div class="container-width space-around padding-top fade-in-sect">
-              <div class="card card-cont rounded-lg">
+            <div class="container-width space-around padding-top fade-in-sect">            
+              <div class="card card-cont rounded-lg btn" id="steam-off">
+                <svg width="498px" height="133px" viewBox="0 0 498 133" class="border">
+                  <polyline points="497,1 497,132 1,132 1,1 497,1" class="bg-line" />
+                  <polyline points="497,1 497,132 1,132 1,1 497,1" class="hl-line" />
+                </svg>
                 <a href="https://steamcommunity.com/id/roseagnes" target="_blank"><img src="img/contact/Steam Add.webp"></a> 
               </div>
-              <div class="card card-cont rounded-lg">
+              <div class="card card-cont rounded-lg btn" id="discord-off">
+                <svg width="498px" height="133px" viewBox="0 0 498 133" class="border">
+                  <polyline points="497,1 497,132 1,132 1,1 497,1" class="bg-line" />
+                  <polyline points="497,1 497,132 1,132 1,1 497,1" class="hl-line" />
+                </svg>
                 <a href="https://discordapp.com/users/roseagnes" target="_blank"><img src="img/contact/Discord ID.webp"></a>
               </div>
             </div>
@@ -105,8 +123,8 @@
                   available in the Order section.
                 </p>
               </div>
-              <div class="card card-cont rounded-lg m-t-40 fade-in-sect">
-                <a href="store.html"><img src="img/contact/Add me discord.png" width="400px" height="auto"></a>
+              <div class="card card-cont rounded-lg m-t-40 fade-in-sect" id="store-off">
+                <a href="store.html"><img src="img/third-sect/Store.webp" width="400px" height="auto"></a>
               </div>
             </div>
             <div class="fotorama fade-in-sect" data-nav="thumbs" data-height="450px" data-width="800px" data-allowfullscreen="true" data-loop="true" data-transition="crossfade">
@@ -187,14 +205,14 @@
           </div>
           <div class="container-media-3">
             <div class="space-around container-width-600">
-              <img class="img-media" src="img/contact/Artstation.webp" width="150px" height="150px">
-              <img class="img-media" src="img/contact/Discord.webp" width="150px" height="150px">
-              <img class="img-media" src="img/contact/Fiverr.webp" width="150px" height="150px">
+              <img class="img-media" src="img/six-sect/Card.webp" width="150px" height="150px">
+              <img class="img-media" src="img/six-sect/CS2.webp" width="150px" height="150px">
+              <img class="img-media" src="img/six-sect/Donatello.webp" width="150px" height="150px">
             </div>
             <div class="space-around container-width-600">
-              <img class="img-media" src="img/contact/Gmail.webp" width="150px" height="150px">
-              <img class="img-media" src="img/contact/Steam.webp" width="150px" height="150px">
-              <img class="img-media" src="img/contact/X.webp" width="150px" height="150px">
+              <img class="img-media" src="img/six-sect/Fiverr.webp" width="150px" height="150px">
+              <img class="img-media" src="img/six-sect/Payoneer.webp" width="150px" height="150px">
+              <img class="img-media" src="img/six-sect/Paypal.webp" width="150px" height="150px">
             </div>
           </div>
         </div>

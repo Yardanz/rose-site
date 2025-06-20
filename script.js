@@ -129,4 +129,30 @@ document.addEventListener("DOMContentLoaded", () => {
     observer.observe(element);
   });
 
+  const toggle = document.getElementById('themeToggle');
+    const imageContainers = {
+        'steam-off': [
+            { src: 'img/contact/Steam Add.webp', alt: 'Default Image 2' },
+            { src: 'img/contact/off/steam-off.jpg', alt: 'Alternative Image 2' }
+        ],
+        'discord-off': [
+            { src: 'img/contact/Discord ID.webp', alt: 'Default Image 2' },
+            { src: 'img/contact/off/discord-off.jpg', alt: 'Alternative Image 2' }
+        ],
+        'store-off': [
+            { src: 'img/third-sect/Store.webp', alt: 'Default Image 2' },
+            { src: 'img/third-sect/Store-off.jpg', alt: 'Alternative Image 2' }
+        ]
+    };
+
+    toggle.addEventListener('change', () => {
+        Object.keys(imageContainers).forEach(containerId => {
+            const container = document.getElementById(containerId);
+            const img = container.querySelector('img');
+            const currentIndex = toggle.checked ? 1 : 0; // 0 - default, 1 - alternative
+            img.src = imageContainers[containerId][currentIndex].src;
+            img.alt = imageContainers[containerId][currentIndex].alt;
+        });
+    });
+
 });

@@ -371,6 +371,13 @@ h1 {
   margin: 0;
 }
 
+.h1-main-1 h1 {
+  position: absolute;
+  top: 85vh !important;
+  left: 25vh;
+  font-size: 60px !important;
+}
+
 h2 {
   font-family: "El Messiri", sans-serif;
   font-size: 32px !important;
@@ -400,6 +407,17 @@ h5 {
   padding-left: 20px;
   margin: 0;
   text-align: center;
+}
+
+h6 {
+  font-family: "El Messiri", sans-serif;
+  font-size: 26px !important;
+  color:#dac482;
+  font-weight: 600 !important;
+  text-shadow: 1px 1px 1px #000000;
+  padding-left: 20px;
+  margin: 0;
+  text-align: start;
 }
 
 .h4-zaebal-blyat {
@@ -519,10 +537,9 @@ a:hover {
 }
 
 .container-column-first {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-end;
-    justify-content: flex-end;
+  position: absolute;
+  left: 87%;
+  top: 50%;
 }
 
 .container-row {
@@ -679,13 +696,13 @@ footer {
 }
 
 
-/* .first-sect {
-  /* background-image: url('./img/first-sec/bg.jpg'); 
+.first-sect { 
+  background-image: url('img/first-sec/bg.png');
   background-blend-mode: overlay;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-} */
+}
 
 .fade-text {
   position: absolute;

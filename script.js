@@ -1,4 +1,4 @@
-let activeSectionId = 'about';
+let activeSectionId = 'first-sect';
 
 document.querySelectorAll('header nav a').forEach(link => {
   link.addEventListener('click', (e) => {

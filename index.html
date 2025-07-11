@@ -3,10 +3,12 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Rose Agnes Art Gallery</title>
+  <title>R.A. Design</title>
+  <link rel="icon" type="image/png" href="img/2.png">
   <link rel="stylesheet" href="styles.css">
   <link rel="stylesheet" href="background.css">
   <link rel="stylesheet" href="button.css">
+  <link rel="stylesheet" href="adaptive.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
@@ -21,217 +23,218 @@
 </head>
 <body>
   <main>
-  <div id="clouds"></div>
-  <div class="cloud-layer"></div>
 
-  <section id="about">
-    <section class="first-sect" id="first-sect">
-      <div class="fade-in-sect h1-main-1">
-        <h1>Welcome to R.A. Design</h1>
+    <div id="clouds"></div>
+    <div class="cloud-layer"> </div>
+
+      <div class="content-section">
+          <h2 class="content-switcher">Animation <br>on\off</h2>
+          <label class="switch">
+              <input type="checkbox" id="themeToggle">
+              <span class="slider"></span>
+          </label>
       </div>
-      <div class="container-column-first">
-        <div class="container-column buttons-sect">
-          <a href="store.html"><img class="container-border p-0" src="./img/first-sec/Store.webp"></a>
-          <a href="#second-sect"><img class="container-border p-0" src="./img/first-sec/About me.webp"></a>
-          <a href="#third-sect"><img class="container-border p-0" src="./img/first-sec/How it works.webp"></a>
-          <a href="#fourth-sect"><img class="container-border p-0" src="./img/first-sec/FAQ.webp"></a>
-          <a href="#fifth-sect"><img class="container-border p-0" src="./img/first-sec/Rep.webp"></a>
-          <a href="#six-sect"><img class="container-border p-0" src="./img/first-sec/Order.webp"></a>
-        </div>
-      </div>
-    </section>
+      
+      <section>
 
-    <section class="content-section">
-        <h2 class="content-switcher">Animation <br>on\off</h2>
-        <label class="switch">
-            <input type="checkbox" id="themeToggle">
-            <span class="slider"></span>
-        </label>
-    </section>
+        <section class="first-sect" data-anchor="first-sect">
+          <div class="fade-in-sect h1-main-1">
+            <h1>Welcome to R.A. Designd</h1>
+          </div>
+          <div class="container-column-first">
+            <div class="container-column buttons-sect">
+              <a href="store.html"><img class="container-border p-0" src="./img/first-sec/Store.webp"></a>
+              <a href="#second-sect"><img class="container-border p-0" src="./img/first-sec/About me.webp"></a>
+              <a href="#third-sect"><img class="container-border p-0" src="./img/first-sec/How it works.webp"></a>
+              <a href="#fourth-sect"><img class="container-border p-0" src="./img/first-sec/FAQ.webp"></a>
+              <a href="#fifth-sect"><img class="container-border p-0" src="./img/first-sec/Rep.webp"></a>
+              <a href="#six-sect"><img class="container-border p-0" src="./img/first-sec/Order.webp"></a>
+            </div>
+          </div>
+        </section>
 
-
-    <section class="second-sect" id="second-sect">
-      <div class="main-container p-t-0">
-        <div class="container-last-second container-column container-width">
-          <h1 class="h1-main fade-in-sect">About me</h1>
-          <div class="container-first container-media-sect-2 container-width fade-in-sect">
-            <div class="container-border container-row w-600">
-              <div class="rounded-lg overflow-hidden" data-tags="Anime Showcase White">
-                <video class="second-sect-media" src="vid/sc/vid17.mp4" autoplay loop muted playsinline></video>
+        <section class="second-sect" id="second-sect">
+          <div class="main-container p-t-0">
+            <div class="container-last-second container-column container-width">
+              <h1 class="h1-main fade-in-sect">About me</h1>
+              <div class="container-first container-media-sect-2 container-width fade-in-sect">
+                <div class="container-border container-row w-600">
+                  <div>
+                    <img class="second-sect-media" src="img/second-sect/1.webp"></img>
+                  </div>
+                  <div class="container-flex">
+                    <h4 class="h4-zaebal-blyat">R.A. Design</h4>
+                    <p class="p-sect-2 ">
+                      I am a Rose Agnes  - motion designer with 5 years of experience. I create 2d animations for profile design,
+                      streamers, website decoration etc. I am open for cooperation and orders. Don't forget to follow me on social
+                        media for updates and more creative content.
+                    </p>
+                  </div>
+                </div> 
+                <div class="container-border w-600">
+                  <div>
+                    <h1>CHECK OUT SOCIAL MEDIA</h1>
+                  </div>
+                  <div class="container-media-2">
+                    <div class="space-around container-width-600">
+                      <a href="https://www.artstation.com/roseagnes" target="_blank"><img class="img-media" src="img/contact/Artstation.webp" max-width="150px" max-height="150px"></a>
+                      <a href="https://discordapp.com/users/roseagnes" target="_blank"><img class="img-media" src="img/contact/Discord.webp" max-width="150px" max-height="150px"></a>
+                      <a href="https://www.fiverr.com/roseagnesbun?source=gig_page" target="_blank"><img class="img-media" src="img/contact/Fiverr.webp" max-width="150px" max-height="150px"></a>
+                    </div>
+                    <div class="space-around container-width-600">
+                      <a href="https://gmail.com" target="_blank"><img class="img-media" src="img/contact/Gmail.webp" max-width="150px" max-height="150px"></a>
+                      <a href="https://steamcommunity.com/id/roseagnes" target="_blank"><img class="img-media" src="img/contact/Steam.webp" max-width="150px" max-height="150px"></a>
+                      <a href="https://x.com" target="_blank"><img class="img-media" src="img/contact/X.webp" max-width="150px" max-height="150px"></a>
+                    </div>
+                  </div>
+                </div>
               </div>
-              <div class="container-flex">
-                <h4 class="h4-zaebal-blyat">R.A. Design</h4>
-                <p class="p-sect-2 ">
-                  I am a Rose Agnes  - motion designer with 5 years of experience. I create 2d animations for profile design,
-                   streamers, website decoration etc. I am open for cooperation and orders. Don't forget to follow me on social
-                    media for updates and more creative content.
+                <div class="container-width space-around padding-top fade-in-sect mob-col">            
+                  <div class="card card-cont rounded-lg btn" id="steam-off">
+                    <svg width="498px" height="133px" viewBox="0 0 498 133" class="border">
+                      <polyline points="497,1 497,132 1,132 1,1 497,1" class="bg-line" />
+                      <polyline points="497,1 497,132 1,132 1,1 497,1" class="hl-line" />
+                    </svg>
+                    <a href="https://steamcommunity.com/id/roseagnes" target="_blank"><img src="img/contact/Steam Add.webp"></a> 
+                  </div>
+                  <div class="card card-cont rounded-lg btn" id="discord-off">
+                    <svg width="498px" height="133px" viewBox="0 0 498 133" class="border">
+                      <polyline points="497,1 497,132 1,132 1,1 497,1" class="bg-line" />
+                      <polyline points="497,1 497,132 1,132 1,1 497,1" class="hl-line" />
+                    </svg>
+                    <a href="https://discordapp.com/users/roseagnes" target="_blank"><img src="img/contact/Discord ID.webp"></a>
+                  </div>
+                </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="third-sect" id="third-sect">
+          <div class="main-container pad-top-40">
+            <div>
+              <h1 class="h1-main pad-top-40 fade-in-sect">How it works</h1>
+            </div>
+            <div class="container-row-third container-width mob-col">
+              <div class="container-third h-522 mob-cen">
+                <div class="container-border w-400 fade-in-sect">
+                  <p>On this website, you can purchase custom animations for your Steam 
+                    account profile, Discord channel designs, and much more. Check out examples 
+                    of my work and make a purchase via the links below. Full payment details are 
+                    available in the Order section.
+                  </p>
+                </div>
+                <div class="card card-cont rounded-lg m-t-40 fade-in-sect" id="store-off">
+                  <a href="store.html"><img src="img/third-sect/Store.webp" width="400px" height="auto"></a>
+                </div>
+              </div>
+              <div class="fotorama fade-in-sect" data-nav="thumbs" data-height="450px" data-width="800px" data-allowfullscreen="true" data-loop="true" data-transition="crossfade">
+                <img src="img/third-sect/1.gif" alt="User 1 Profile">
+                <img src="img/third-sect/2.gif" alt="User 1 Profile">
+                <img src="img/third-sect/3.gif" alt="User 1 Profile">
+                <img src="img/third-sect/4.gif" alt="User 1 Profile">
+                <img src="img/third-sect/5.gif" alt="User 1 Profile">
+              </div>
+            </div>
+          </div> 
+        </section>
+
+        <section class="fourth-sect" id="fourth-sect">
+          <div class="main-container pad-top-40">
+            <div class="container-width">
+              <div class="fade-in-sect">
+                <h1 class="h1-main">FAQ</h1>
+              </div>
+              <div class="container-border fade-in-sect mob-cen mob-col">
+                <h6>1. How long can my order take?</h6>
+                <p class="p-b-40">Depending on the order queue. From 3-10 days. I warn about the stages of work.</p>
+                <h6>2. What does the price depend on?</h6>
+                <p class="p-b-40">On the requirements for the work, the complexity of the image, the number of characters.</p>
+                <h6>3. Are you an artist? Can you draw me an art?</h6>
+                <p class="p-b-40">No. I don't draw art from 0, I only animate. You provide your image to order.</p>
+                <h6>4. Can I buy an animation from Showcase window?</h6>
+                <p class="p-b-40">No. Showcase artworks are individual orders. Only the owner can use them.  To purchase, go to “Shop” on the website.</p>
+                <h6>5. Can I pay in advance (half or a third of the cost)?</h6>
+                <p>Negotiated individually.</p>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="fifth-sect" id="fifth-sect">
+          <div class="main-container container-column pad-top-40">
+            <div class="fade-in-sect">
+              <h1 class="h1-main">Reputation</h1>
+            </div>
+            <div class="container-row-third container-width p-b-40 fade-in-sect mob-col">
+              <div class="fotorama fade-in-sect" data-nav="thumbs" data-height="450px" data-width="800px" data-allowfullscreen="true" data-loop="true" data-transition="crossfade">
+                <img src="img/fifth-sect/1.jpg" alt="User 1 Profile">
+                <img src="img/fifth-sect/2.jpg" alt="User 2 Profile">
+                <img src="img/fifth-sect/3.jpg" alt="User 3 Profile">
+                <img src="img/fifth-sect/4.jpg" alt="User 4 Profile">
+                <img src="img/fifth-sect/5.jpg" alt="User 5 Profile">
+              </div>
+              <div class="container-border w-400 fade-in-sect">
+                <p>
+                  With years of experience in motion design, I’ve had the pleasure 
+                  of receiving heartfelt feedback and gratitude from my clients, 
+                  which you can explore through the links below. Throughout the project, 
+                  we’ll stay in close communication, allowing you to share your ideas and 
+                  make adjustments to ensure the final result is exactly what you envision.
                 </p>
               </div>
-            </div> 
-            <div class="container-border w-600">
+            </div>
+            <div class="container-border container-width fade-in-sect">
+              <p>
+                These reviews are public. Customers are protected by a privacy policy. No personal or real information is used.
+              </p>
+            </div>
+          </div>
+        </section>
+
+        <section class="six-sect" ids="six-sect">
+          <div class="main-container container-column pad-top-40">
+            <div class="fade-in-sect">
+              <h1 class="h1-main fade-in-sect">Order</h1>
+            </div>
+            <div class="container-border container-column fade-in-sect">
               <div>
-                <h1>CHECK OUT SOCIAL MEDIA</h1>
+                <h3>
+                  Methods of payment
+                </h3>
               </div>
               <div class="container-media-2">
                 <div class="space-around container-width-600">
-                  <a href="https://www.artstation.com/roseagnes" target="_blank"><img class="img-media" src="img/contact/Artstation.webp" width="150px" height="150px"></a>
-                  <a href="https://discordapp.com/users/roseagnes" target="_blank"><img class="img-media" src="img/contact/Discord.webp" width="150px" height="150px"></a>
-                  <a href="https://www.fiverr.com/roseagnesbun?source=gig_page" target="_blank"><img class="img-media" src="img/contact/Fiverr.webp" width="150px" height="150px"></a>
+                  <a href="https://www.artstation.com/roseagnes" target="_blank"><img class="img-media" src="img/contact/Artstation.webp" max-width="150px" max-height="150px"></a>
+                  <a href="https://discordapp.com/users/roseagnes" target="_blank"><img class="img-media" src="img/contact/Discord.webp" max-width="150px" max-height="150px"></a>
+                  <a href="https://www.fiverr.com/roseagnesbun?source=gig_page" target="_blank"><img class="img-media" src="img/contact/Fiverr.webp" max-width="150px" max-height="150px"></a>
                 </div>
                 <div class="space-around container-width-600">
-                  <a href="https://gmail.com" target="_blank"><img class="img-media" src="img/contact/Gmail.webp" width="150px" height="150px"></a>
-                  <a href="https://steamcommunity.com/id/roseagnes" target="_blank"><img class="img-media" src="img/contact/Steam.webp" width="150px" height="150px"></a>
-                  <a href="https://x.com" target="_blank"><img class="img-media" src="img/contact/X.webp" width="150px" height="150px"></a>
+                  <a href="https://gmail.com" target="_blank"><img class="img-media" src="img/contact/Gmail.webp" max-width="150px" max-height="150px"></a>
+                  <a href="https://steamcommunity.com/id/roseagnes" target="_blank"><img class="img-media" src="img/contact/Steam.webp" max-width="150px" max-height="150px"></a>
+                  <a href="https://x.com" target="_blank"><img class="img-media" src="img/contact/X.webp" max-width="150px" max-height="150px"></a>
                 </div>
               </div>
             </div>
-          </div>
-            <div class="container-width space-around padding-top fade-in-sect">            
-              <div class="card card-cont rounded-lg btn" id="steam-off">
-                <svg width="498px" height="133px" viewBox="0 0 498 133" class="border">
-                  <polyline points="497,1 497,132 1,132 1,1 497,1" class="bg-line" />
-                  <polyline points="497,1 497,132 1,132 1,1 497,1" class="hl-line" />
-                </svg>
-                <a href="https://steamcommunity.com/id/roseagnes" target="_blank"><img src="img/contact/Steam Add.webp"></a> 
-              </div>
-              <div class="card card-cont rounded-lg btn" id="discord-off">
-                <svg width="498px" height="133px" viewBox="0 0 498 133" class="border">
-                  <polyline points="497,1 497,132 1,132 1,1 497,1" class="bg-line" />
-                  <polyline points="497,1 497,132 1,132 1,1 497,1" class="hl-line" />
-                </svg>
-                <a href="https://discordapp.com/users/roseagnes" target="_blank"><img src="img/contact/Discord ID.webp"></a>
-              </div>
+            <div class="container-border m-t-40 fade-in-sect">
+              <h5>Follow these simple steps to get your custom animation:</h5>
+              <p>
+                1. Select your desired animation from the <a href="store.html">Animation Store</a>.<br>  
+                2. Add me as a friend on <a href="#">Steam</a>.<br>
+                3. Complete the payment using your preferred method.<br>  
+                4. I’ll start working on your order.
+              </p>
             </div>
-        </div>
-      </div>
-    </section>
+          </div>
+        </section>
 
-    <section class="third-sect" id="third-sect">
-      <div class="main-container pad-top-40">
-        <div>
-          <div>
-            <h1 class="h1-main pad-top-40 fade-in-sect">How it works</h1>
-          </div>
-          <div class="container-row-third container-width">
-            <div class="container-third h-522">
-              <div class="container-border w-400 fade-in-sect">
-                <p>On this website, you can purchase custom animations for your Steam 
-                  account profile, Discord channel designs, and much more. Check out examples 
-                  of my work and make a purchase via the links below. Full payment details are 
-                  available in the Order section.
-                </p>
-              </div>
-              <div class="card card-cont rounded-lg m-t-40 fade-in-sect" id="store-off">
-                <a href="store.html"><img src="img/third-sect/Store.webp" width="400px" height="auto"></a>
-              </div>
-            </div>
-            <div class="fotorama fade-in-sect" data-nav="thumbs" data-height="450px" data-width="800px" data-allowfullscreen="true" data-loop="true" data-transition="crossfade">
-              <img src="img/third-sect/1.gif" alt="User 1 Profile">
-              <img src="img/third-sect/2.gif" alt="User 1 Profile">
-              <img src="img/third-sect/3.gif" alt="User 1 Profile">
-              <img src="img/third-sect/4.gif" alt="User 1 Profile">
-              <img src="img/third-sect/5.gif" alt="User 1 Profile">
-            </div>
-          </div>
-        </div>
-      </div> 
+        <footer>
+            <div class="container-width footer-container">
+                <p>© 2025 R.A. Design | All rights reserved.</p>
+        </footer>
     </section>
-
-    <section class="fourth-sect" id="fourth-sect">
-      <div class="main-container pad-top-40">
-        <div class="container-width">
-          <div class="fade-in-sect">
-            <h1 class="h1-main">FAQ</h1>
-          </div>
-          <div class="container-border fade-in-sect">
-            <h6>1. How long can my order take?</h6>
-            <p class="p-b-40">Depending on the order queue. From 3-10 days. I warn about the stages of work.</p>
-            <h6>2. What does the price depend on?</h6>
-            <p class="p-b-40">On the requirements for the work, the complexity of the image, the number of characters.</p>
-            <h6>3. Are you an artist? Can you draw me an art?</h6>
-            <p class="p-b-40">No. I don't draw art from 0, I only animate. You provide your image to order.</p>
-            <h6>4. Can I buy an animation from Showcase window?</h6>
-            <p class="p-b-40">No. Showcase artworks are individual orders. Only the owner can use them.  To purchase, go to “Shop” on the website.</p>
-            <h6>5. Can I pay in advance (half or a third of the cost)?</h6>
-            <p>Negotiated individually.</p>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section class="fifth-sect" id="fifth-sect">
-      <div class="main-container container-column pad-top-40">
-        <div class="fade-in-sect">
-          <h1 class="h1-main">Reputation</h1>
-        </div>
-        <div class="container-row-third container-width p-b-40 fade-in-sect">
-          <div class="fotorama fade-in-sect" data-nav="thumbs" data-height="450px" data-width="800px" data-allowfullscreen="true" data-loop="true" data-transition="crossfade">
-            <img src="img/fifth-sect/1.jpg" alt="User 1 Profile">
-            <img src="img/fifth-sect/2.jpg" alt="User 2 Profile">
-            <img src="img/fifth-sect/3.jpg" alt="User 3 Profile">
-            <img src="img/fifth-sect/4.jpg" alt="User 4 Profile">
-            <img src="img/fifth-sect/5.jpg" alt="User 5 Profile">
-          </div>
-          <div class="container-border w-400 fade-in-sect">
-            <p>
-              With years of experience in motion design, I’ve had the pleasure 
-              of receiving heartfelt feedback and gratitude from my clients, 
-              which you can explore through the links below. Throughout the project, 
-              we’ll stay in close communication, allowing you to share your ideas and 
-              make adjustments to ensure the final result is exactly what you envision.
-            </p>
-          </div>
-        </div>
-        <div class="container-border container-width fade-in-sect">
-          <p>
-            These reviews are public. Customers are protected by a privacy policy. No personal or real information is used.
-          </p>
-        </div>
-      </div>
-    </section>
-
-    <section class="six-sect" id="six-sect">
-      <div class="main-container container-column pad-top-40">
-        <div class="fade-in-sect">
-          <h1 class="h1-main fade-in-sect">Order</h1>
-        </div>
-        <div class="container-border container-column fade-in-sect">
-          <div>
-            <h3>
-              Methods of payment
-            </h3>
-          </div>
-          <div class="container-media-3">
-            <div class="space-around container-width-600">
-              <img class="img-media" src="img/six-sect/Card.webp" width="150px" height="150px">
-              <img class="img-media" src="img/six-sect/CS2.webp" width="150px" height="150px">
-              <img class="img-media" src="img/six-sect/Donatello.webp" width="150px" height="150px">
-            </div>
-            <div class="space-around container-width-600">
-              <img class="img-media" src="img/six-sect/Fiverr.webp" width="150px" height="150px">
-              <img class="img-media" src="img/six-sect/Payoneer.webp" width="150px" height="150px">
-              <img class="img-media" src="img/six-sect/Paypal.webp" width="150px" height="150px">
-            </div>
-          </div>
-        </div>
-        <div class="container-border m-t-40 fade-in-sect">
-          <h5>Follow these simple steps to get your custom animation:</h5>
-          <p>
-            1. Select your desired animation from the <a href="store.html">Animation Store</a>.<br>  
-            2. Add me as a friend on <a href="#">Steam</a>.<br>
-            3. Complete the payment using your preferred method.<br>  
-            4. I’ll start working on your order.
-          </p>
-        </div>
-      </div>
-    </section>
-    <footer>
-        <div class="container-width footer-container">
-            <p>© 2025 R.A. Design | All rights reserved.</p>
-    </footer>
-  </section>
 </main>
   <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script src="script.js"></script>
 <script>(function(){function c(){var b=a.contentDocument||a.contentWindow.document;if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'94c23371cb55b7b2',t:'MTc0OTMyMDgxOS4wMDAwMDA='};var a=document.createElement('script');a.nonce='';a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script>
+
 </body>
 </html> 

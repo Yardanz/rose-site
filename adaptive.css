@@ -1,0 +1,143 @@
+@media screen and (max-width: 768px) {
+
+  /* Основная структура */
+  body {
+    font-size: 16px;
+    padding: 0 10px;
+  }
+
+  /* .main-container,
+  .container-width-600,
+  .container-last-second,
+  .container-row-third,
+  .space-around {
+    flex-direction: column !important;
+    align-items: center !important;
+    justify-content: center !important;
+    gap: 20px;
+  } */
+
+  .container-media-sect-2,
+  .mob-col {
+    flex-direction: column !important;
+    align-items: center !important;
+    gap: 20px;
+  }
+
+  .mob-cen {
+    align-items: center !important;
+  }
+
+  .second-sect, .third-sect, .fourth-sect, .fifth-sect, .six-sect {
+    max-height: none;
+    height: auto;
+    padding-bottom: 5vh;
+  }
+
+  .container-border,
+  .w-400,
+  .w-600,
+  .img-media,
+  .img-media-2 {
+    width: 90% !important;
+    max-width: 100% !important;
+    height: auto !important;
+  }
+
+  .fotorama {
+    width: 100% !important;
+    min-height: auto !important;
+  }
+
+  .container-column-first {
+    position: static !important;
+    margin: 20px auto !important;
+    left: auto !important;
+    top: auto !important;
+    transform: none !important;
+  }
+
+  .fade-text,
+  .h1-main-1 h1 {
+    position: static !important;
+    transform: none !important;
+    font-size: 28px !important;
+    padding: 20px 10px !important;
+    text-align: center;
+  }
+
+  .p-sect-2, p {
+    padding: 10px;
+    font-size: 16px !important;
+  }
+
+  .buttons-sect {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    transform: none;
+  }
+
+  .buttons-sect img {
+    width: 80px;
+    height: auto;
+  }
+
+  .content-section {
+    position: fixed;
+    bottom: 20px;
+    top: auto;
+    left: 10px;
+    right: 10px;
+    width: auto;
+    padding: 10px;
+    z-index: 999;
+  }
+
+  .switch {
+    width: 50px;
+    height: 28px;
+  }
+
+  .slider:before {
+    height: 20px;
+    width: 20px;
+    bottom: 4px;
+  }
+
+  footer {
+    height: auto;
+    padding: 10px;
+    font-size: 12px;
+  }
+
+  .cloud-layer,
+  body::before,
+  body::after {
+    display: none;
+  }
+
+  .fade-in-sect {
+    opacity: 1;
+    transform: none;
+    transition: none;
+  }
+
+  .content-section,
+  .container-column-first {
+    display: none;
+  }
+
+  .padding-top {
+    padding-top: 5vh;
+  }
+
+  .container-media-sect-2 {
+    max-height: none !important;
+  }
+
+/* 
+  .second-sect {
+    margin-bottom: 20vh;
+  } */
+}
